@@ -8,7 +8,7 @@ public class Main {
         do {
             result = result * number;
             ++number;
-        } while (number >= 1 && number < 25);
+        } while (number >= 1 && number <= 25);
         System.out.println("Произведение чисел от 1 до 25 = " + result);
     }
 }
